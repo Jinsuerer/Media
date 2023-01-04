@@ -8,12 +8,13 @@
 .container{
     width: 1200px;
     margin: 0 auto;
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
 }
 /* header  */
 header{
     display: flex;
-    justify-content: space-between;
+  
+justify-content: space-between;
     align-items: center;
 }
 header .logo img{
@@ -98,4 +99,39 @@ footer{
     text-align: center;
     pad: 2rem 0;
     background-color: #ddd;
+}
+@media screen and (max-width:700px){
+    body{
+        background-color: rgb(194, 238, 223);
+    }
+
+    header{
+        flex-direction: column;
+    }
+    header .logo img{
+        width: 400px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .baner__left{
+        text-align: center;
+    }
+    .card{
+        padding: 2rem 1rem;
+    }
+    .card:nth-child(odd){
+        flex-direction: column;
+        
+    }
+    .card:nth-child(even){
+        flex-direction: column;
+    
+    }
 }
