@@ -94,3 +94,8 @@ main{
     flex-direction: row-reverse;
 
 }
+footer{
+    text-align: center;
+    pad: 2rem 0;
+    background-color: #ddd;
+}
