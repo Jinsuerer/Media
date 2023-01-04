@@ -60,13 +60,19 @@ p{
     line-height: 2;
     text-align: justify;
 }
+main{
+    margin: 1rem;
+}
 /* card */
 .card{
     display: flex;
+    align-items: center;
     padding: 1rem;
     border: 20px ;
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    gap: 1rem;
+    margin: 2rem 0 0 ;
     
 }
 .card .card__left{
@@ -79,4 +85,12 @@ p{
     border-radius: 40px;
     width: 100%;
    
+}
+.card:nth-child(odd){
+    flex-direction: row;
+    
+}
+.card:nth-child(even){
+    flex-direction: row-reverse;
+
 }
