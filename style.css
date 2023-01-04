@@ -60,3 +60,23 @@ p{
     line-height: 2;
     text-align: justify;
 }
+/* card */
+.card{
+    display: flex;
+    padding: 1rem;
+    border: 20px ;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+.card .card__left{
+    flex: 1;
+}
+.card .card__right{
+    flex: 1;
+}
+.card .card__right img{
+    border-radius: 40px;
+    width: 100%;
+   
+}
